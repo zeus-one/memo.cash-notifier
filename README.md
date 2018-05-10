@@ -4,7 +4,7 @@ This is a simple memo notificator, currently supports notifications for replies 
 
 ``` bash
 [*] You got a new reply from homopit to your post https://memo.cash/post/a1b5f8082d652335a3c88bff8a2ae5f42a5787c97af1ab21eafb52c51dd45197
-[*] You got a new like/tip from homopit to your post https://memo.cash/post/63b29bc8e17dddef2c70aaf9f25da05e38555b3825be5e0dfa5f0bf8b127ee95
+[*] You got a new like from homopit to your post https://memo.cash/post/63b29bc8e17dddef2c70aaf9f25da05e38555b3825be5e0dfa5f0bf8b127ee95
 [*] You got a 1000 satoshis tip from  12ZM2h to your post https://memo.cash/post/a8ac195fae579f90e483ff08532394b0c2b107adb0402ccbfc44e55fa3249294
 ```
 
