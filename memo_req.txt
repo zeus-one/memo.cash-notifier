@@ -1,0 +1,4 @@
+termcolor
+requests==2.5.3
+BeautifulSoup
+websocket-client==0.5.1
