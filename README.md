@@ -23,3 +23,9 @@ python memo.py your legacy address
 Example: python memo.py 1NDMh9VsZAJ3WBKGYSvMtbP4NBzFwK9aJv
 
 ```
+# Donations
+
+ bitcoincash:qr5tpeld8ahqa2kgjr6mdxn2kwnf0v8mru25cpy6u4
+ Legacy Address: 1NDMh9VsZAJ3WBKGYSvMtbP4NBzFwK9aJv 
+ 
+ qrcode im my memo profile https://memo.cash/profile/1NDMh9VsZAJ3WBKGYSvMtbP4NBzFwK9aJv
