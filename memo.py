@@ -68,8 +68,13 @@ class MemoNotifier(object):
               txHashOfLikedOrTippedPost = rts.decode("hex")[::-1].encode("hex")
               # check if is our post
               if self.isOurPost(txHashOfLikedOrTippedPost):
-                print colored('[*]', 'green'),("You got a new like/tip from %s to your post %s" %(thisUser, "https://memo.cash/post/" + str(txHashOfLikedOrTippedPost)))
-                self.notify()
+                if len(outputs) == 3:
+                  thisTippedAmount = outputs[1]["value"]
+                  print colored('[*]', 'green'),("You got a %d satoshis tip from %s to your post %s" %(thisTippedAmount ,thisUser, "https://memo.cash/post/" + str(txHashOfLikedOrTippedPost)))
+                  self.notify()
+                else:
+                  print colored('[*]', 'green'),("You got a new like from %s to your post %s" %(thisUser, "https://memo.cash/post/" + str(txHashOfLikedOrTippedPost)))
+                  self.notify()
             else:
               pass
 
